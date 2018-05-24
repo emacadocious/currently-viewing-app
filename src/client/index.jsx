@@ -1,5 +1,4 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from './components';
+import renderRoutes from './routing';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(renderRoutes(), document.getElementById('root'));
