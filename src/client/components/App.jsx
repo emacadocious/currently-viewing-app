@@ -3,6 +3,7 @@ import './app.css';
 import Nav from './Nav';
 import Main from './Main';
 import Footer from './Footer';
+import IPContainer from '../containers/IPContainer';
 
 export default class App extends Component {
   constructor(props) {
@@ -15,6 +16,7 @@ export default class App extends Component {
       <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
         <Nav />
         <Main />
+        <IPContainer />
         <Footer />
       </div>
     );

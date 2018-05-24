@@ -1,0 +1,3 @@
+export const IP_REQUEST = 'IP_REQUEST';
+export const IP_REQUEST_SUCCESS = 'IP_REQUEST_SUCCESS';
+export const IP_REQUEST_ERROR = 'IP_REQUEST_ERROR';
